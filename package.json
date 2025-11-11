@@ -11,7 +11,10 @@
     "test:coverage": "vitest run --coverage",
     "lint": "eslint src/**/*.ts",
     "clean": "rm -rf dist",
-    "demo": "tsx examples/interactive-demo.ts"
+    "demo": "tsx examples/interactive-demo.ts",
+    "web:install": "cd examples/blackjack-web && npm install",
+    "web:dev": "cd examples/blackjack-web && npm run dev",
+    "web:build": "cd examples/blackjack-web && npm run build"
   },
   "keywords": [
     "card-game",

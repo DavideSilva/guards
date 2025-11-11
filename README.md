@@ -54,6 +54,25 @@ This launches an interactive terminal demo where you can:
 
 See [examples/README.md](examples/README.md) for more details.
 
+### Play Blackjack in Your Browser
+
+```bash
+# Install dependencies
+bun run web:install
+
+# Start the web app
+bun run web:dev
+```
+
+Open your browser to play a full Blackjack game with:
+- Beautiful card graphics
+- Smooth animations
+- Hit, Stand, and Double Down actions
+- Smart dealer AI
+- Live statistics tracking
+
+See [examples/blackjack-web/README.md](examples/blackjack-web/README.md) for more details.
+
 ### Development
 
 ```bash
@@ -100,11 +119,13 @@ The engine is built around these core concepts:
 - [x] Deck implementation with Fisher-Yates shuffle
 - [x] Hand and DiscardPile implementations
 - [x] Terminal UI utilities
-- [x] Interactive demo
-- [ ] Game state management
-- [ ] Example game implementations (War, Go Fish, etc.)
-- [ ] Web-based UI (future)
+- [x] Interactive terminal demo
+- [x] Game state management (Player, Game base classes)
+- [x] Blackjack game implementation
+- [x] Web-based UI for Blackjack
+- [ ] Additional game implementations (Poker, War, Go Fish, etc.)
 - [ ] Multiplayer support (future)
+- [ ] Tournament mode (future)
 
 ## License
 
