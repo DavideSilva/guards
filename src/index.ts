@@ -8,3 +8,4 @@ export * from './core/CardCollection';
 export * from './core/Deck';
 export * from './core/Hand';
 export * from './core/DiscardPile';
+export * from './ui/TerminalDisplay';
