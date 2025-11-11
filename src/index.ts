@@ -17,6 +17,7 @@ export * from './game/Game';
 
 // Games
 export * from './games/blackjack';
+export * from './games/gridrunner';
 
 // UI utilities
 export * from './ui/TerminalDisplay';
