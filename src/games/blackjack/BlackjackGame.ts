@@ -7,7 +7,6 @@ import {
   BlackjackCard,
   BlackjackConfig,
   BlackjackAction,
-  HandResult,
   HandScore
 } from './types';
 import {

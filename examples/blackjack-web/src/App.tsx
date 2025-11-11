@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { BlackjackGame, Player, BlackjackAction, formatHandScore } from 'guards-card-game';
 import { BlackjackCard } from 'guards-card-game';
 import { Card as CardComponent } from './components/Card';
