@@ -19,7 +19,9 @@ This project provides a generic, extensible framework for implementing card-base
 guards/
 ├── src/              # Source code
 │   ├── core/         # Core game classes (Card, Deck, Hand, etc.)
+│   ├── ui/           # Terminal display utilities
 │   └── index.ts      # Main entry point
+├── examples/         # Example applications
 ├── tests/            # Test files
 ├── dist/             # Compiled output (generated)
 └── coverage/         # Test coverage reports (generated)
@@ -37,6 +39,21 @@ guards/
 bun install
 ```
 
+### Quick Start - Try the Interactive Demo
+
+```bash
+bun run demo
+```
+
+This launches an interactive terminal demo where you can:
+- Draw cards from a shuffled deck
+- Display your hand with ASCII art
+- Play and discard cards
+- Sort your hand
+- Reshuffle the discard pile
+
+See [examples/README.md](examples/README.md) for more details.
+
 ### Development
 
 ```bash
@@ -44,16 +61,19 @@ bun install
 bun test
 
 # Run tests in watch mode
-bun test:watch
+bun run test:watch
 
 # Run tests with coverage
-bun test:coverage
+bun run test:coverage
 
 # Build the project
 bun run build
 
 # Lint code
 bun run lint
+
+# Run interactive demo
+bun run demo
 ```
 
 ## Architecture
@@ -76,12 +96,15 @@ The engine is built around these core concepts:
 ## Roadmap
 
 - [x] Initial project setup
-- [ ] Core card classes (Card, CardCollection)
-- [ ] Deck implementation with Fisher-Yates shuffle
-- [ ] Hand and DiscardPile implementations
+- [x] Core card classes (Card, CardCollection)
+- [x] Deck implementation with Fisher-Yates shuffle
+- [x] Hand and DiscardPile implementations
+- [x] Terminal UI utilities
+- [x] Interactive demo
 - [ ] Game state management
-- [ ] Simple example game
-- [ ] UI layer (future)
+- [ ] Example game implementations (War, Go Fish, etc.)
+- [ ] Web-based UI (future)
+- [ ] Multiplayer support (future)
 
 ## License
 
