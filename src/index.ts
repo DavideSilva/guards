@@ -15,5 +15,8 @@ export * from './game/types';
 export * from './game/Player';
 export * from './game/Game';
 
+// Games
+export * from './games/blackjack';
+
 // UI utilities
 export * from './ui/TerminalDisplay';
